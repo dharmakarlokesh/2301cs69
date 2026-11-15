@@ -1,0 +1,16 @@
+{
+  "name": "escrow-2301",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Assignment 7: Solidity escrow (buyer, seller, arbiter) with Foundry tests",
+  "scripts": {
+    "pretest": "node -e \"require('fs').existsSync('node_modules/forge-std') || process.exit(1)\" || npm ci",
+    "test": "forge test -vv",
+    "gas": "forge test --gas-report",
+    "coverage": "forge coverage --report summary"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.7"
+  }
+}
