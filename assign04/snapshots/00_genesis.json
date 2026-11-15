@@ -1,0 +1,30 @@
+{
+  "format": "utxo-snapshot-v1",
+  "state_hash": "6c7a322661a62fbbdff5f2832d41ad10861eb1b87eec29a3a38365426cbdefc2",
+  "total_value": 210,
+  "utxos": [
+    {
+      "outpoint": "568e0d8f06cf523794a86fe38fda95db80b7d52eecfb6fe38a62d7bcc5ba8ada:0",
+      "value": 40,
+      "pubkey_hash": "e81553a40c30fe4580b4b0b469623c56fb2145d5"
+    },
+    {
+      "outpoint": "568e0d8f06cf523794a86fe38fda95db80b7d52eecfb6fe38a62d7bcc5ba8ada:1",
+      "value": 70,
+      "pubkey_hash": "e81553a40c30fe4580b4b0b469623c56fb2145d5"
+    },
+    {
+      "outpoint": "568e0d8f06cf523794a86fe38fda95db80b7d52eecfb6fe38a62d7bcc5ba8ada:2",
+      "value": 100,
+      "pubkey_hash": "00492732688720e3b01d1336f34cdd2f467037cd"
+    }
+  ],
+  "spent": {},
+  "accepted_txids": [
+    "568e0d8f06cf523794a86fe38fda95db80b7d52eecfb6fe38a62d7bcc5ba8ada"
+  ],
+  "policy": {
+    "min_fee": 0,
+    "max_fee": 10
+  }
+}

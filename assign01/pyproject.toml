@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hashlab"
+version = "1.0.0"
+description = "SHA-256 byte diagnostics: text/hex/file, avalanche, canonical JSON"
+requires-python = ">=3.11"
+dependencies = []          # standard library only (hashlib, base64, json, unicodedata)
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+hashlab = "hashlab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
